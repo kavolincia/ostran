@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Amatic_SC, Caveat_Brush, Inter, Quicksand } from 'next/font/google'
 import { cn } from '@repo/ui/lib/utils'
 import Navbar from '~/components/Navbar/Navbar'
+import { Toaster } from '@repo/ui/components/ui/toaster'
 
 const font = Caveat_Brush({ weight: '400', subsets: ['latin-ext'] })
 // const inter = Inter({ subsets: ['latin'] })
@@ -33,12 +34,8 @@ export default function RootLayout({
                 <div className="min-h-screen bg-brandAccent text-brandPrimary">
                     <Navbar />
                     <main className="mx-auto">{children}</main>
-                    <footer className="py-16 bg-gradient-to-r from-brandBackground to-brandSecondary">
-                        <div className="container mx-auto px-4 text-center">
-                            © 2024 Ostre-Randki.pl - All rights reserved.
-                        </div>
-                    </footer>
                 </div>
+                <Toaster/>
             </body>
         </html>
     )

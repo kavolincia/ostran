@@ -8,17 +8,17 @@ import CountUp from 'react-countup'
 const stats = [
     {
         icon: Coffee,
-        value: getRandomIntegerInclusive(3500, 3600),
+        value: getRandomIntegerInclusive(32575, 32600),
         label: 'Pierwszych randek',
         prefix: 'Ponad',
     },
     {
         icon: MessageCircle,
-        value: getRandomIntegerInclusive(52100, 521500),
+        value: getRandomIntegerInclusive(821400, 821500),
         label: 'Wysłanych wiadomości',
         prefix: 'Ponad',
     },
-    { icon: Users, value: getRandomIntegerInclusive(1600, 1700), label: 'Szczęśliwych par', prefix: 'Ponad' },
+    { icon: Users, value: getRandomIntegerInclusive(11675, 11700), label: 'Szczęśliwych par', prefix: 'Ponad' },
 ]
 
 export default function StatisticsSection() {

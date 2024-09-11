@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { RestrictedAccessModal } from '../RestrictedAccessModal/RestrictedAccessModal'
+import { LEAD_URL_001 } from '~/constants/urls'
 
 
 export default function Navbar() {
@@ -40,6 +41,9 @@ export default function Navbar() {
                     <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
                         Kontakt
                     </Link>
+                    <Link href="" className="text-2xl text-brandSecondary hover:text-brandBackground" onClick={() => setModalOpen(true)}>
+                            AI-Finder
+                        </Link>
                 </nav>
                 <div className="md:hidden">
                     <Button onClick={toggleMenu} variant="ghost" size="icon">
@@ -51,12 +55,12 @@ export default function Navbar() {
                     </Button>
                 </div>
                 <div className="hidden md:flex space-x-2">
-                <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
+                <Link href={LEAD_URL_001}>
                             <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
                                 Rejestracja
                             </Button>
                             </Link>
-                    <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
+                            <Link href={LEAD_URL_001}>
                                 <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
                                     Logowanie
                                 </Button>
@@ -69,22 +73,25 @@ export default function Navbar() {
                         <Link href="/" className="hover:text-brandSecondary">
                             Home
                         </Link>
-                        <Link href="/chat" className="hover:text-brandSecondary">
+                        <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
                             Chat
                         </Link>
                         <Link href="/profiles" className="hover:text-brandSecondary">
                             Profile
                         </Link>
-                        <Link href="/contact" className="hover:text-brandSecondary">
+                        <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
                             Kontakt
                         </Link>
+                        <Link href="" className="text-4xl text-brandSecondary hover:text-brandBackground" onClick={() => setModalOpen(true)}>
+                            AI-Finder
+                        </Link>
                         <div className="flex space-x-2 mt-4">
-                        <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
+                        <Link href={LEAD_URL_001}>
                             <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
                                 Rejestracja
                             </Button>
                             </Link>
-                            <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
+                            <Link href={LEAD_URL_001}>
                                 <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
                                     Logowanie
                                 </Button>

@@ -11,9 +11,13 @@ import profilesData from '~/data/profiles.json'
 import { Button } from '@repo/ui/components/ui/button'
 import { Badge } from '@repo/ui/components/ui/badge'
 import { Input } from '@repo/ui/components/ui/input'
+import { useNewUserNotifications } from '~/hooks/useNewUserToast'
+import { RestrictedAccessModal } from '~/components/RestrictedAccessModal/RestrictedAccessModal'
 
 export default function ProfilesPage() {
+  useNewUserNotifications();
   const [searchTerm, setSearchTerm] = useState('')
+  const [isModalOpen, setModalOpen] = useState(false);
 
   const filteredProfiles = profilesData.filter(profile =>
     profile.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -56,7 +60,7 @@ export default function ProfilesPage() {
                 <Image
                   src={profile.image}
                   alt={`${profile.name}'s profile`}
-                  layout="fill"
+                fill
                   objectFit="cover"
                   className="rounded-t-lg"
                 />
@@ -101,6 +105,12 @@ export default function ProfilesPage() {
           </p>
         )}
       </div>
+      <div className='flex justify-center w-full h-auto'>
+            <Button onClick={() => setModalOpen(true)} className="bg-brandAccent hover:bg-opacity-90 text-brandPrimary text-2xl px-8 py-4 mb-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+              Zobacz więcej profili ...
+            </Button>
+      </div>
+      <RestrictedAccessModal isOpen={isModalOpen} onClose={() => setModalOpen(false)}/>
     </div>
   )
 }

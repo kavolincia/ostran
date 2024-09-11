@@ -1,6 +1,7 @@
 import { Button } from '@repo/ui/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
+import { LEAD_URL_001 } from '~/constants/urls'
 
 export default function HeroSection() {
     return (
@@ -22,7 +23,7 @@ export default function HeroSection() {
                 <p className="text-2xl lg:text-3xl text-purple-200 mb-10 max-w-3xl mx-auto animate-fade-in-up">
                 Odkryj magię prawdziwej miłości w świecie pełnym możliwości. Twoja wyjątkowa historia czeka, by ją napisać.
                 </p>
-                <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
+                <Link href={LEAD_URL_001}>
                 <Button
                     size="lg"
                     className="bg-pink-400 text-2xl hover:bg-pink-600 text-white transform transition duration-900 ease-in-out hover:scale-110 animate-pulse"

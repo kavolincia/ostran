@@ -3,6 +3,7 @@ import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, D
 import { Button } from '@repo/ui/components/ui/button'
 import { useState } from 'react'
 import Link from 'next/link'
+import { LEAD_URL_001 } from '~/constants/urls'
 
 interface RestrictedAccessModalProps {
   isOpen: boolean
@@ -40,8 +41,8 @@ export function RestrictedAccessModal({ isOpen, onClose }: RestrictedAccessModal
           <Button onClick={handleClose} variant="outline" className="w-full sm:w-auto text-md">
             Może później
           </Button>
-          <Link href="https://deal-on.eu/p/ZReg/e7Da/nj7f">
-          <Button className="w-full sm:w-auto text-md">
+          <Link href={LEAD_URL_001}>
+          <Button className="w-full sm:w-auto text-md hover:bg-brandBackground bg-brandAccent">
             Zarejestruj się teraz
           </Button>
           </Link>
