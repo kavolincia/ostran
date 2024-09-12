@@ -13,23 +13,33 @@
     "interests": ["Architektura", "Podróże", "Gotowanie", "Fotografia", "Yoga"],
     "likes": 128,
     "comments": 42,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 2,
-    "name": "Magda",
-    "age": 25,
+    "name": "Karolina",
+    "age": 24,
     "location": "Wrocław, Polska",
-    "job": "Studentka psychologii",
-    "lastActive": "20 minut temu",
+    "job": "Studentka psychologii, manager",
+    "lastActive": "21 minut temu",
     "lookingFor": "Mężczyzny, 25-30 lat",
     "status": "Singielka",
     "bio": "Studentka psychologii, pasjonatka jogi i zdrowego stylu życia. Szukam kogoś, kto pomoże mi zachować równowagę.",
-    "image": "/profiles/profile2.jpg",
+    "image": "/profiles/profile_karolina.jpg",
     "interests": ["Psychologia", "Joga", "Zdrowy styl życia", "Medytacja"],
-    "likes": 95,
-    "comments": 31,
-    "verified": true
+    "likes": 395,
+    "comments": 81,
+    "verified": true,
+    "facebook": "https://www.facebook.com/kavolincia",
+    "instagram": "https://www.instagram.com/karolinciuuus/",
+    "telegram": "https://t.me/+TOvyePyvmqgxMDk0",
+    "snapchat": "",
+    "website": "https://linktr.ee/kavolinciax"
   },
   {
     "id": 3,
@@ -45,7 +55,12 @@
     "interests": ["Literatura", "Podróże", "Języki obce", "Teatr", "Kino"],
     "likes": 112,
     "comments": 37,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 4,
@@ -61,7 +76,12 @@
     "interests": ["Sztuka", "Design", "Fotografia", "Natura", "Muzyka"],
     "likes": 89,
     "comments": 28,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 5,
@@ -77,7 +97,12 @@
     "interests": ["Medycyna", "Bieganie", "Literatura", "Zdrowie", "Podróże"],
     "likes": 145,
     "comments": 52,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 6,
@@ -93,7 +118,12 @@
     "interests": ["Moda", "Sztuka", "Design", "Fotografia", "Muzyka"],
     "likes": 108,
     "comments": 39,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 7,
@@ -109,7 +139,12 @@
     "interests": ["Prawo", "Literatura", "Teatr", "Kulinaria", "Podróże"],
     "likes": 132,
     "comments": 45,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 8,
@@ -125,7 +160,12 @@
     "interests": ["Programowanie", "Gry", "Technologia", "Nauka", "Sci-Fi"],
     "likes": 97,
     "comments": 33,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 9,
@@ -141,7 +181,12 @@
     "interests": ["Joga", "Medytacja", "Zdrowie", "Natura", "Filozofia"],
     "likes": 118,
     "comments": 41,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 10,
@@ -157,7 +202,12 @@
     "interests": ["Dziennikarstwo", "Podróże", "Kultura", "Fotografia", "Polityka"],
     "likes": 105,
     "comments": 36,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 11,
@@ -173,7 +223,12 @@
     "interests": ["Biologia", "Ekologia", "Fotografia przyrodnicza", "Turystyka", "Wolontariat"],
     "likes": 82,
     "comments": 27,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 12,
@@ -189,7 +244,12 @@
     "interests": ["Fizjoterapia", "Sport", "Zdrowie", "Taniec", "Gotowanie"],
     "likes": 110,
     "comments": 38,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 13,
@@ -205,7 +265,12 @@
     "interests": ["Cukiernictwo", "Gotowanie", "Fotografia kulinarna", "Sztuka", "Podróże kulinarne"],
     "likes": 98,
     "comments": 34,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 14,
@@ -221,7 +286,12 @@
     "interests": ["Fitness", "Zdrowe odżywianie", "Motywacja", "Psychologia sportu", "Podróże"],
     "likes": 135,
     "comments": 47,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 15,
@@ -237,7 +307,12 @@
     "interests": ["Fotografia", "Sztuka", "Podróże", "Natura", "Moda"],
     "likes": 120,
     "comments": 42,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 16,
@@ -253,7 +328,12 @@
     "interests": ["Muzyka", "Edukacja", "Instrumenty", "Koncerty", "Podróże"],
     "likes": 92,
     "comments": 31,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 17,
@@ -269,7 +349,12 @@
     "interests": ["Psychologia", "Rozwój osobisty", "Medytacja", "Literatura", "Sztuka"],
     "likes": 115,
     "comments": 40,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 18,
@@ -285,7 +370,12 @@
     "interests": ["Design wnętrz", "Architektura", "Sztuka", "DIY", "Podróże"],
     "likes": 103,
     "comments": 35,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 19,
@@ -301,7 +391,12 @@
     "interests": ["Medycyna", "Nauka", "Wolontariat", "Sport", "Literatura medyczna"],
     "likes": 88,
     "comments": 29,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 20,
@@ -317,7 +412,12 @@
     "interests": ["Dietetyka", "Gotowanie", "Zdrowy styl życia", "Fitness", "Edukacja żywieniowa"],
     "likes": 110,
     "comments": 38,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 21,
@@ -333,7 +433,12 @@
     "interests": ["Języki obce", "Podróże", "Literatura", "Kino międzynarodowe", "Kulinaria"],
     "likes": 125,
     "comments": 43,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 22,
@@ -349,7 +454,12 @@
     "interests": ["Kosmetologia", "Wellness", "Moda", "Zdrowy styl życia", "Joga"],
     "likes": 95,
     "comments": 32,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 23,
@@ -365,7 +475,12 @@
     "interests": ["Weterynaria", "Opieka nad zwierzętami", "Ekologia", "Turystyka", "Fotografia przyrodnicza"],
     "likes": 118,
     "comments": 41,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 24,
@@ -381,7 +496,12 @@
     "interests": ["Taniec", "Fitness", "Muzyka", "Moda", "Podróże"],
     "likes": 108,
     "comments": 37,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 25,
@@ -397,7 +517,12 @@
     "interests": ["Historia sztuki", "Malarstwo", "Muzea", "Podróże kulturowe", "Fotografia"],
     "likes": 130,
     "comments": 45,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 26,
@@ -413,7 +538,12 @@
     "interests": ["Gotowanie", "Fotografia kulinarna", "Blogging", "Podróże kulinarne", "Social media"],
     "likes": 102,
     "comments": 36,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 27,
@@ -429,7 +559,12 @@
     "interests": ["Fizyka", "Astronomia", "Nauka", "Popularyzacja nauki", "Sci-Fi"],
     "likes": 95,
     "comments": 33,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 28,
@@ -445,7 +580,12 @@
     "interests": ["Mindfulness", "Medytacja", "Joga", "Rozwój osobisty", "Natura"],
     "likes": 112,
     "comments": 39,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 29,
@@ -461,7 +601,12 @@
     "interests": ["Winiarstwo", "Kulinaria", "Podróże", "Historia", "Enologia"],
     "likes": 128,
     "comments": 44,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 30,
@@ -477,7 +622,12 @@
     "interests": ["Tatuaże", "Sztuka", "Rysunek", "Muzyka alternatywna", "Fotografia"],
     "likes": 105,
     "comments": 36,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 31,
@@ -493,7 +643,12 @@
     "interests": ["Sztuka", "Rysunek", "Fotografia"],
     "likes": 75,
     "comments": 23,
-    "verified": false
+    "verified": false,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   },
   {
     "id": 32,
@@ -509,6 +664,11 @@
     "interests": ["Dietetyka", "DIY"],
     "likes": 121,
     "comments": 44,
-    "verified": true
+    "verified": true,
+    "facebook": "",
+    "instagram": "",
+    "telegram": "",
+    "snapchat": "",
+    "website": ""
   }
 ]
