@@ -23,25 +23,25 @@ const features = [
 
 export default function FeaturesSection() {
     return (
-<section className="py-16 bg-gradient-to-r from-brandBackground to-brandSecondary">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-brandPrimary rounded-lg p-6 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
-            >
-              <feature.icon className="w-16 h-16 text-brandAccent mb-4 mx-auto" />
-              <h2 className="text-2xl lg:text-3xl font-bold text-brandBackground mb-4 text-center">
-                {feature.title}
-              </h2>
-              <p className="text-gray-700 text-lg lg:text-xl text-center">
-                {feature.description}
-              </p>
+        <section className="py-16 bg-gradient-to-r from-brandBackground to-brandSecondary">
+            <div className="container mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {features.map((feature, index) => (
+                        <div
+                            key={index}
+                            className="bg-brandPrimary rounded-lg p-6 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                        >
+                            <feature.icon className="w-16 h-16 text-brandAccent mb-4 mx-auto" />
+                            <h2 className="text-2xl lg:text-3xl font-bold text-brandBackground mb-4 text-center">
+                                {feature.title}
+                            </h2>
+                            <p className="text-gray-700 text-lg lg:text-xl text-center">
+                                {feature.description}
+                            </p>
+                        </div>
+                    ))}
+                </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
+        </section>
     )
 }

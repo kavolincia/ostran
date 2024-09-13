@@ -18,7 +18,12 @@ const stats = [
         label: 'Wysłanych wiadomości',
         prefix: 'Ponad',
     },
-    { icon: Users, value: getRandomIntegerInclusive(11675, 11700), label: 'Szczęśliwych par', prefix: 'Ponad' },
+    {
+        icon: Users,
+        value: getRandomIntegerInclusive(11675, 11700),
+        label: 'Szczęśliwych par',
+        prefix: 'Ponad',
+    },
 ]
 
 export default function StatisticsSection() {

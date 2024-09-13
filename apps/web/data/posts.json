@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "5 Sposobów na Udaną Pierwszą Randkę",
+        "excerpt": "Pierwsza randka może być stresująca, ale z tymi wskazówkami na pewno zrobisz dobre wrażenie!",
+        "coverImage": "/blog/image1.png",
+        "date": "2023-06-15",
+        "slug": "5-sposobow-na-udana-pierwsza-randke"
+    },
+    {
+        "id": 2,
+        "title": "Jak Napisać Profil, Który Przyciągnie Uwagę",
+        "excerpt": "Twój profil to Twoja wizytówka. Dowiedz się, jak stworzyć profil, który wyróżni Cię z tłumu.",
+        "coverImage": "/randka.jpg",
+        "date": "2023-06-22",
+        "slug": "jak-napisac-profil-ktory-przyciagnie-uwage"
+    },
+    {
+        "id": 3,
+        "title": "Miłość w Czasach Technologii: Plusy i Minusy Randkowania Online",
+        "excerpt": "Zastanawiasz się nad randkowaniem online? Poznaj zalety i wyzwania związane z szukaniem miłości w internecie.",
+        "coverImage": "/randka.jpg",
+        "date": "2023-06-29",
+        "slug": "milosc-w-czasach-technologii-plusy-i-minusy-randkowania-online"
+    }
+]

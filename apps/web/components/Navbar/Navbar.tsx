@@ -6,13 +6,49 @@ import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { RestrictedAccessModal } from '../RestrictedAccessModal/RestrictedAccessModal'
-import { LEAD_URL_001 } from '~/constants/urls'
+import { MAIN_LEAD_URL } from '~/constants/urls'
+import { cn } from '@repo/ui/lib/utils'
 
+interface INavLink {
+    href: string
+    label: string
+    modal?: boolean
+    className?: string
+}
+
+const navLinks: INavLink[] = [
+    { href: '/', label: 'Home' },
+    { href: '/profiles', label: 'Profile' },
+    { href: '/blog', label: 'Blog' },
+    { href: '', label: 'Kamerki', modal: true },
+    { href: '', label: 'Chat', modal: true },
+    {
+        href: '',
+        label: 'AI-Finder',
+        modal: true,
+        className: 'text-xl text-brandSecondary hover:text-brandBackground',
+    },
+]
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
-    const [isModalOpen, setModalOpen] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false)
     const toggleMenu = () => setIsOpen(!isOpen)
+
+    const renderLinks = () =>
+        navLinks.map(({ href, label, modal, className }) => (
+            <Link
+                key={label}
+                href={href}
+                className={cn(
+                    'hover:text-brandSecondary transition duration-300',
+                    className
+                )}
+                onClick={modal ? () => setModalOpen(true) : undefined}
+            >
+                {label}
+            </Link>
+        ))
 
     return (
         <header className="bg-brandAccent shadow-md">
@@ -28,22 +64,8 @@ export default function Navbar() {
                         />
                     </Link>
                 </div>
-                <nav className="hidden md:flex space-x-12 text-2xl">
-                    <Link href="/" className="hover:text-brandSecondary">
-                        Home
-                    </Link>
-                        <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
-                            Chat
-                        </Link>
-                    <Link href="/profiles" className="hover:text-brandSecondary">
-                        Profile
-                    </Link>
-                    <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
-                        Kontakt
-                    </Link>
-                    <Link href="" className="text-2xl text-brandSecondary hover:text-brandBackground" onClick={() => setModalOpen(true)}>
-                            AI-Finder
-                        </Link>
+                <nav className="hidden md:flex space-x-12 text-xl">
+                    {renderLinks()}
                 </nav>
                 <div className="md:hidden">
                     <Button onClick={toggleMenu} variant="ghost" size="icon">
@@ -55,43 +77,29 @@ export default function Navbar() {
                     </Button>
                 </div>
                 <div className="hidden md:flex space-x-2">
-                <Link href={LEAD_URL_001}>
-                            <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
-                                Rejestracja
-                            </Button>
-                            </Link>
-                            <Link href={LEAD_URL_001}>
-                                <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
-                                    Logowanie
-                                </Button>
-                            </Link>
+                    <Link href={MAIN_LEAD_URL}>
+                        <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
+                            Rejestracja
+                        </Button>
+                    </Link>
+                    <Link href={MAIN_LEAD_URL}>
+                        <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
+                            Logowanie
+                        </Button>
+                    </Link>
                 </div>
             </div>
             {isOpen && (
                 <div className="md:hidden">
                     <nav className="flex flex-col items-center space-y-4 py-4 text-3xl">
-                        <Link href="/" className="hover:text-brandSecondary">
-                            Home
-                        </Link>
-                        <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
-                            Chat
-                        </Link>
-                        <Link href="/profiles" className="hover:text-brandSecondary">
-                            Profile
-                        </Link>
-                        <Link href="" className="hover:text-brandSecondary" onClick={() => setModalOpen(true)}>
-                            Kontakt
-                        </Link>
-                        <Link href="" className="text-4xl text-brandSecondary hover:text-brandBackground" onClick={() => setModalOpen(true)}>
-                            AI-Finder
-                        </Link>
+                        {renderLinks()}
                         <div className="flex space-x-2 mt-4">
-                        <Link href={LEAD_URL_001}>
-                            <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
-                                Rejestracja
-                            </Button>
+                            <Link href={MAIN_LEAD_URL}>
+                                <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
+                                    Rejestracja
+                                </Button>
                             </Link>
-                            <Link href={LEAD_URL_001}>
+                            <Link href={MAIN_LEAD_URL}>
                                 <Button className="text-xl bg-brandBackground hover:text-brandSecondary">
                                     Logowanie
                                 </Button>
@@ -100,7 +108,10 @@ export default function Navbar() {
                     </nav>
                 </div>
             )}
-            <RestrictedAccessModal isOpen={isModalOpen} onClose={() => setModalOpen(false)}/>
+            <RestrictedAccessModal
+                isOpen={isModalOpen}
+                onClose={() => setModalOpen(false)}
+            />
         </header>
     )
 }
