@@ -42,3 +42,8 @@
 //     </div>
 //   )
 // }
+export default function BlogListPage() {
+  return (
+    <h1></h1>
+  )
+}
