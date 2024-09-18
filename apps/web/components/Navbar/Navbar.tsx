@@ -19,7 +19,7 @@ interface INavLink {
 const navLinks: INavLink[] = [
     { href: '/', label: 'Home' },
     { href: '/profiles', label: 'Profile' },
-    { href: '/blog', label: 'Blog' },
+    // { href: '/blog', label: 'Blog' },
     { href: '', label: 'Kamerki', modal: true },
     { href: '', label: 'Chat', modal: true },
     {
