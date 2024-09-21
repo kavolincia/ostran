@@ -4,4 +4,4 @@ export const FANPAGE_URL =
     'https://www.facebook.com/profile.php?id=61565838056803'
 export const FB_GROUP_URL = 'https://www.facebook.com/groups/1718612225229656'
 
-export const MAIN_LEAD_URL = LEAD_URL_001
+export const MAIN_LEAD_URL = LEAD_URL_002
